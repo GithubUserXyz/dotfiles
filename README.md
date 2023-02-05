@@ -8,3 +8,9 @@
 ```
 ln -s /path/to/dotfiles/.tmux.conf ~/.tmux.conf
 ```
+
+## ファイル
+
+.bash_profile
+
+.tmux.conf
