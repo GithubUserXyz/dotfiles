@@ -1,14 +1,27 @@
 set number
 set showcmd
 set title
+" Color
 syntax enable
 set t_Co=256
+" encoding
 set encoding=utf-8
+" tab
 set expandtab
+set tabstop=2
+set softtabstop=2
+set autoindent
+set smartindent
+set shiftwidth=2
+" search
 set ignorecase
 set incsearch
+" Status line
 set laststatus=2
-set autoindent
+set showmode
+set showcmd
+set ruler
+
 set noerrorbells
 
 " vim-plugによるプラグイン管理
