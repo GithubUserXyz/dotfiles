@@ -1,3 +1,6 @@
+" file type
+filetype plugin indent on
+
 set number
 set showcmd
 set title
@@ -8,7 +11,7 @@ set t_Co=256
 set encoding=utf-8
 " tab
 set expandtab
-set tabstop=2
+set tabstop=8
 set softtabstop=2
 set autoindent
 set smartindent
