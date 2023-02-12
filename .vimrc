@@ -2,7 +2,6 @@
 filetype plugin indent on
 
 set number
-set showcmd
 set title
 " Color
 syntax enable
