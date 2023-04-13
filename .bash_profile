@@ -12,3 +12,14 @@ fi
 # git clone https://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# rust
+. "$HOME/.cargo/env"
+
+# dart
+export PATH="$HOME/data/Applications/dart-sdk/bin:$PATH"
+# flutter (dart)
+export PATH="$HOME/data/Applications/flutter/bin:$PATH"
+
+# node
+export PATH="$HOME/data/Applications/node/bin:$PATH"
