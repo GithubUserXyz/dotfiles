@@ -17,7 +17,8 @@ eval "$(rbenv init -)"
 . "$HOME/.cargo/env"
 
 # dart
-export PATH="$HOME/data/Applications/dart-sdk_3.0.5/bin:$PATH"
+export PATH="$HOME/data/Applications/dart-sdk_3.0.5/dart-sdk/bin:$PATH"
+
 # flutter (dart)
 export PATH="$HOME/data/Applications/flutter/bin:$PATH"
 
