@@ -35,6 +35,10 @@ call plug#begin()
 Plug 'tomasr/molokai', {'do': 'mkdir ~/.vim/colors; cp colors/* ~/.vim/colors/'}
 " NerdTree ツリー形式で表示するプラグイン
 Plug 'scrooloose/nerdtree'
+" dart plugin
+Plug 'dart-lang/dart-vim-plugin'
+" flutter plugin
+Plug 'thosakwe/vim-flutter'
 
 call plug#end()
 
