@@ -8,3 +8,9 @@
 ```
 ln -s /path/to/dotfiles/.tmux.conf ~/.tmux.conf
 ```
+
+vimのfiletype別の設定
+
+```
+ln -s /path/to/dotfiles/.vim/ftplugin ~/.vim/ftplugin
+```

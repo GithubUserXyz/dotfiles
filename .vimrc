@@ -27,10 +27,9 @@ set ruler
 set noerrorbells
 
 " fileType indent
-augroup fileTypeIndent
-  autocmd!
-  autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
-  autocmd BufNewFile,BufRead *.h setlocal tabstop=4 softtabstop=4 shiftwidth=4
+augroup fileTypeDetect
+  au BufRead,BufNewFile *.cpp setfiletype cpp
+  au BufRead,BufNewFile *.h setfiletype cpp
 augroup END
 
 " vim-plugによるプラグイン管理
