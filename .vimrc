@@ -26,6 +26,13 @@ set ruler
 
 set noerrorbells
 
+" fileType indent
+augroup fileTypeIndent
+  autocmd!
+  autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
+  autocmd BufNewFile,BufRead *.h setlocal tabstop=4 softtabstop=4 shiftwidth=4
+augroup END
+
 " vim-plugによるプラグイン管理
 " :PlugInstallによりインストールされる
 call plug#begin()

@@ -3,6 +3,9 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
+# Ctrl-s
+stty stop undef
+
 # rbenv(ruby) path
 # rbenv install
 # git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
