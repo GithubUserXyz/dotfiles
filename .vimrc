@@ -30,6 +30,7 @@ set noerrorbells
 augroup fileTypeDetect
   au BufRead,BufNewFile *.cpp setfiletype cpp
   au BufRead,BufNewFile *.h setfiletype cpp
+  au BufRead,BufNewFile *.hpp setfiletype cpp
 augroup END
 
 " vim-plugによるプラグイン管理
@@ -45,8 +46,13 @@ Plug 'scrooloose/nerdtree'
 Plug 'dart-lang/dart-vim-plugin'
 " flutter plugin
 Plug 'thosakwe/vim-flutter'
+" Rust plugin
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
 " Color Scheme
 colorscheme molokai
+
+" for rust-lang/rust.vim
+let g:rust_recommended_style = 0
